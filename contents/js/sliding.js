@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 track.style.transition = 'none';
                 currentIndex = 0;
                 goToSlide(currentIndex);
-            }, 1000);
+            }, 100);
         }
     }
 

@@ -11,18 +11,19 @@
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
 }
+
 .carousel-track {
     display: flex;
     height: 100%;
-}
-.carousel-slide {
-    min-width: 100%;
-    position: relative;
     transition: transform 1s ease-in-out;
 }
 
+.carousel-slide {
+    width: 100%;
+    position: relative;
+}
 
 .carousel-slide img {
     width: 100%;
@@ -30,10 +31,12 @@
     object-fit: cover;
     display: block;
 }
+
 @keyframes smoothAppear {
     0% { opacity: 0.8; }
     100% { opacity: 1; }
 }
+
 .carousel-slide.active {
     animation: smoothAppear 0.5s ease-in;
 }
