@@ -1,0 +1,39 @@
+#extra {
+    overflow: hidden;
+}
+
+
+
+.carousel-container {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 16/9;
+}
+.carousel-track {
+    display: flex;
+    height: 100%;
+}
+.carousel-slide {
+    min-width: 100%;
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+@keyframes smoothAppear {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+.carousel-slide.active {
+    animation: smoothAppear 0.5s ease-in;
+}
