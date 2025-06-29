@@ -113,3 +113,9 @@ nav#mobile-nav {
     right: 0;
     transition: right 0.75s ease-in-out;
 }
+
+/* MAIN STYLES */
+
+.product {
+    color: whitesmoke;
+}

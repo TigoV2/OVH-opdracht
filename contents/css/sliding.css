@@ -6,7 +6,7 @@
 
 .carousel-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 1250px;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -26,7 +26,7 @@
 }
 
 .carousel-slide img {
-    width: 100%;
+    width: 1250px;
     height: 100%;
     object-fit: cover;
     display: block;
